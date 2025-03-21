@@ -47,5 +47,22 @@ border-style: dotted;
    border: 2px solid black;
    border-style: dotted;
 }
-
+.col-70 {
+    background-color:#5757ce;
+    width: 70%;
+    margin-top: 30px;
+    /* debug */
+    height: 350px;
+    border: 2px solid black;
+    border-style: dotted;
+}
+.col-30 {
+    background-color: #EE82EE;
+    margin-top: 30px;
+    width: 30%;
+    /* debug */
+    height: 350px;
+    border: 2px solid black;
+    border-style: dotted;
+}
 /* FOOTER */
