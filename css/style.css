@@ -107,5 +107,21 @@ border-style: dotted;
 }
 .bg-dark {
     background-color: #23272A;
+    border-bottom: 2px solid white;
 }
 /* FOOTER */
+.footer-flex{
+    display: flex;
+justify-content: space-between;
+background-color: #7FFFD4;
+/* debug */
+border: 1px solid black;
+border-style: dotted;
+height: 50px;
+}
+.footer-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #7FFFD4;
+}
