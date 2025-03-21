@@ -25,11 +25,11 @@ background-color: #ffa500;
 /* debug */
 border: 1px solid #000000;
 border-style: dotted;
+padding: 3px;
 }
 .flex {
     display: flex;
 }
-
 .section-header a {
   text-decoration: none;
   color: #000000;
@@ -59,7 +59,7 @@ border-style: dotted;
     border-style: dotted;
 }
 .col-30 {
-    background-color: #EE82EE;
+    background-color: #FFC0CB;
     width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -73,7 +73,7 @@ border-style: dotted;
     background-color: #D3D3D3;
 }
 .section-5 {
-    background-color: #EE82EE;
+    background-color: #FFC0CB;
    height: 90%;
    width: 40%;
    border: 2px solid #000000;
