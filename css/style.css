@@ -11,17 +11,41 @@
     height: 80px;
 }
 /* COMMON */
-.header-container {
+.container {
    width: 80%;
    max-width: 1000px;
    margin: 0 auto;
 }
 /* Layout */
 
-.flex{
+.flex-header{
 display: flex;
+justify-content: space-between;
 background-color: orange;
+/* debug */
+border: 1px solid black;
+border-style: dotted;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
 
+.section-header a {
+  text-decoration: none;
+  color: #000000;
+}
+.first-section {
+    background-color: #00008B;
+    /* debug */
+    height: 300px;
+}
+.content-1 {
+    background-color: #EE82EE;
+   height: 80%;
+   width: 40%;
+   border: 2px solid black;
+   border-style: dotted;
 }
 
 /* FOOTER */
