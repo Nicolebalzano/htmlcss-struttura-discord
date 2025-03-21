@@ -21,9 +21,9 @@
 .flex-header{
 display: flex;
 justify-content: space-between;
-background-color: orange;
+background-color: #ffa500;
 /* debug */
-border: 1px solid black;
+border: 1px solid #000000;
 border-style: dotted;
 }
 .flex {
@@ -43,7 +43,7 @@ border-style: dotted;
     background-color: #EE82EE;
    height: 300px;
    width: 50%;
-   border: 2px solid black;
+   border: 2px solid #000000;
    border-style: dotted;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -55,7 +55,7 @@ border-style: dotted;
     margin-bottom: 30px;
     /* debug */
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-style: dotted;
 }
 .col-30 {
@@ -65,7 +65,7 @@ border-style: dotted;
     margin-bottom: 30px;
     /* debug */
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-style: dotted;
     
 }
@@ -76,7 +76,7 @@ border-style: dotted;
     background-color: #EE82EE;
    height: 90%;
    width: 40%;
-   border: 2px solid black;
+   border: 2px solid #000000;
    border-style: dotted;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -92,7 +92,7 @@ border-style: dotted;
     margin-top: 30px;
     margin-bottom: 30px;
     /* debug */
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-style: dotted;
 }
 .col-15 {
@@ -102,20 +102,24 @@ border-style: dotted;
     margin-top: 30px;
     margin-bottom: 30px;
     /* debug */
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-style: dotted;
 }
 .bg-dark {
     background-color: #23272A;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ffffff;
 }
 /* FOOTER */
+.padding-top30 {
+    padding-top: 30px;
+}
 .footer-flex{
     display: flex;
 justify-content: space-between;
+align-items: center;
 background-color: #7FFFD4;
 /* debug */
-border: 1px solid black;
+border: 1px solid #000000;
 border-style: dotted;
 height: 50px;
 }
@@ -124,4 +128,14 @@ height: 50px;
     max-width: 1000px;
     margin: 0 auto;
     background-color: #7FFFD4;
+}
+.footer-elements {
+    background-color:#F08080;
+    padding: 2px;
+    border: 2px solid #000000;
+    border-style: dotted;
+}
+.footer-elements button {
+    border: none;
+    background-color:#F08080;
 }
