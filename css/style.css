@@ -28,7 +28,6 @@ border-style: dotted;
 }
 .flex {
     display: flex;
-    align-items: center;
 }
 
 .section-header a {
@@ -46,23 +45,31 @@ border-style: dotted;
    width: 40%;
    border: 2px solid black;
    border-style: dotted;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 .col-70 {
     background-color:#5757ce;
     width: 70%;
     margin-top: 30px;
+    margin-bottom: 30px;
     /* debug */
-    height: 350px;
+    height: 300px;
     border: 2px solid black;
     border-style: dotted;
 }
 .col-30 {
     background-color: #EE82EE;
-    margin-top: 30px;
     width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     /* debug */
-    height: 350px;
+    height: 300px;
     border: 2px solid black;
     border-style: dotted;
+    
+}
+.bg-gray {
+    background-color: #D3D3D3;
 }
 /* FOOTER */
