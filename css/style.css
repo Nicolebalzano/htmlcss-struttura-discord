@@ -1,0 +1,27 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    background-color: #ADD8E6;
+    height: 80px;
+}
+/* COMMON */
+.header-container {
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+/* Layout */
+
+.flex{
+display: flex;
+background-color: orange;
+
+}
+
+/* FOOTER */
